@@ -8,10 +8,9 @@
 
 ![Cart with total] (screenshot5.png)
 
-# Ecommerce-site
+# E-commerce Site - From My Table to Yours
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+_A web app made with Ember 2 that simulates an e-commerce website for gourmet foods and drinks. Uses Google Firebase to store data for items and feedback comments. Items and feedback have a one-to-many relationship respectively. Items are sorted into different routes/components based on the category of food or drink through the use of Firebase queries. Feedback may be added to an item detail page with star ratings. Users may add itesm to their shopping cart and the number of items in cart will always be displayed to the user in the navigation bar._
 
 ## Prerequisites
 
@@ -25,7 +24,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/AshleyRayMaceli/e-commerce-site-ember.git` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
@@ -49,10 +48,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
@@ -60,3 +55,15 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+###License
+
+The MIT License (MIT)
+
+Copyright (c) 2016 - Ashley Maceli
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
