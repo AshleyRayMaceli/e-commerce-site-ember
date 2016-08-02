@@ -1,3 +1,13 @@
+![Homepage] (screenshot1.png)
+
+![Food section] (screenshot2.png)
+
+![Individual item page] (screenshot3.png)
+
+![Feedback on individual page] (screenshot4.png)
+
+![Cart with total] (screenshot5.png)
+
 # Ecommerce-site
 
 This README outlines the details of collaborating on this Ember application.
@@ -50,4 +60,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
